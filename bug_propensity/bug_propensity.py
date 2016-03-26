@@ -1,5 +1,7 @@
 from math import exp
 
+__author__ = 'ahmedali'
+
 
 def bug_propensity_raw(timestamp):
     """
