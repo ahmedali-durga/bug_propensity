@@ -7,8 +7,8 @@ def bug_propensity_raw(timestamp):
     :param timestamp:
     :return: bug-propensity raw value
     """
-    large_time_cons = 150 * (10 ** 7)
-    return 1 / float(1 + exp(-12 * timestamp / large_time_cons + 12))
+    large_time_constant = 150 * (10 ** 7)
+    return 1 / float(1 + exp(-12 * timestamp / large_time_constant + 12))
 
 
 def bug_propensity_percentage(raw_value):
